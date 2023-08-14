@@ -1,0 +1,118 @@
+body{
+    background-color: rgb(37, 31, 31);
+}
+form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 420px ;
+    width: 420px;
+    top: 20%;
+    left: 35%;
+    position: absolute;
+    /* transform: translate(-50% ,-50%);   */
+    box-sizing: border-box;
+    background-color: black;
+    color: white;
+    padding: 15px;
+    border-radius: 8px;
+    /* box-shadow: 10px 10px 54px rgba(211, 156, 26,0.9) */
+    box-shadow: 15px 15px 50px rgba(234, 231, 228, 0.929);
+    border-radius: 20px;
+}
+
+form p{
+    font-size: 18px;
+}
+
+form i{
+    color: rgb(227, 103, 103);
+    font-size: 50px;
+     top: -6%;
+    position: absolute;
+}
+
+
+
+form label{
+    width: 95%;
+    font-size: 25px;
+}
+
+form input{
+    color: white;
+    width: 90%;
+    padding: 8px;
+    margin: 8px;
+    border: none;
+    background: none;
+    font-size: 20px;
+    border-bottom: 2px solid white;
+    outline: none;
+}
+
+form a {
+    text-decoration: none;
+    font-size: 20px;
+    background:rgb(227, 103, 103);
+    width: 90%;
+    color: white;
+    padding: 10px;
+    border: none;
+    text-align: center;
+    border-radius: 20px;
+    margin-top: 5px;
+
+}
+
+form a:hover{
+    background: rgb(165, 92, 92);
+    
+}
+
+form:hover{
+    box-shadow: 15px 15px 54px  rgb(227, 103, 103);
+}
+
+form #forget:hover{
+    color: rgb(172, 155, 155);
+}
+
+form #forget{
+    width: 95%;
+    font-size: 15px;
+    cursor: pointer;
+}
+
+@media(max-width:520px){
+
+    form {
+        width: 312px;
+        
+        box-shadow: 15px 15px 25px rgba(234, 231, 228, 0.929);
+       
+    }
+
+}
+
+@media(max-width:340px){
+    form {
+        width: 222px;
+        height: 395px;
+        box-shadow: 5px 5px 5px rgba(234, 231, 228, 0.929);
+    }
+
+    form label {
+        font-size: 20px;
+    }
+
+    form input {
+        font-size: 15px;
+    }
+
+    form a {
+        text-decoration: none;
+        font-size: 16px;
+        padding: 5px;
+    }
+}
