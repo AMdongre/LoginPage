@@ -7,10 +7,10 @@ form{
     align-items: center;
     height: 420px ;
     width: 420px;
-    top: 20%;
-    left: 35%;
+    top: 50%;
+    left: 50%;
     position: absolute;
-    /* transform: translate(-50% ,-50%);   */
+    transform: translate(-50% ,-50%);  
     box-sizing: border-box;
     background-color: black;
     color: white;
